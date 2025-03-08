@@ -5,7 +5,8 @@ function About() {
         <div className="w-screen flex items-center justify-center my-40 lg:mt-60">
             <div className="flex flex-col w-full items-center justify-center space-y-28 md:space-y-10">
                 <AboutMeItem
-                    color="base-b"
+                    fgColor="text-base-b"
+                    bgColor="bg-base-b"
                     title="About me">
                     My name is Adrian Villalobos. I am currently studying Computer Engineering at ITCR.
                     I want to pursue a career in data science,
@@ -20,7 +21,8 @@ function About() {
                 </AboutMeItem>
 
                 <AboutMeItem
-                    color="base-c"
+                    fgColor="text-base-c"
+                    bgColor="bg-base-c"
                     title="What am I focusing on?">
                     Currently, I am focused on completing my Bachelor's degree in Computer Engineering,
                     which I expect to finish by the end of 2026. Additionally, I am independently
@@ -33,7 +35,8 @@ function About() {
                 </AboutMeItem>
 
                 <AboutMeItem
-                    color="base-j"
+                    fgColor="text-base-j"
+                    bgColor="bg-base-j"
                     title="Professional Profile">
                     I consider myself a hardworking person, always open to receiving feedback
                     from others. I believe I have a strong foundation in both soft skills and,
