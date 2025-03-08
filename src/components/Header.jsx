@@ -33,7 +33,7 @@ export function Header() {
                 variant="large"
                 className="p-1 font-normal"
             >
-                <a href="#" className="flex items-center">
+                <a href="/about" className="flex items-center">
                     About
                 </a>
             </Typography>
@@ -89,7 +89,7 @@ export function Header() {
                         </div>
                         <IconButton
                             variant="text"
-                            className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+                            className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent my-4 lg:hidden"
                             ripple={false}
                             onClick={() => setOpenNav(!openNav)}
                         >

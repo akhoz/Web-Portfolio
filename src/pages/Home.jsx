@@ -6,24 +6,36 @@ import { BsInstagram } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
 
+import { FaLightbulb } from "react-icons/fa";
+
 function Home() {
     return (
-        <div className="w-screen flex items-center justify-center mt-10 md:mt-60 lg:mt-72">
+        <div className="w-screen h-screen flex flex-col items-center justify-center">
             <div className="flex flex-col items-center justify-center lg:flex-row lg:justify-between lg:w-10/12 xl:w-9/12">
                 <div className="w-9/12 md:w-2/3 lg:w-2/5">
                     <h1 className="text-4xl text-base-c text-center lg:text-start">
                         Hello, I'm Adrian Villalobos
                     </h1>
-                    <p className="mt-3 mb-8 text-center lg:text-start">
-                        Costa Rican student at ITCR, 19 years old. Studying
-                        data science to build a career in the field.
-                        Experienced in web development. Linux enthusiast
-                        with hands-on experience in Ubuntu, Fedora, and Arch Linux.
+                    <p className="mt-3 text-center lg:text-start">
+                        Costa Rican Computer Engineering student at
+                        <abbr title="Instituto Tecnológico de Costa Rica" className="no-underline">&nbsp;ITCR</abbr>.
+                        Studying data science to build a career in the field.
+                        Experienced in web development. Linux enthusiast with hands-on experience
+                        in Ubuntu, Fedora, and Arch Linux.
+                    </p>
+                    <p className="mb-8 text-center lg:text-start">
+                        Take a look at my
+                        <a className="text-base-j cursor-pointer font-bold">&nbsp;skills</a>,
+                        <a className="text-base-j cursor-pointer font-bold">&nbsp;projects</a>,
+                        and more on this website.
+                        Get to know me in the
+                        <a href="/about" className="text-base-j cursor-pointer font-bold">&nbsp;about&nbsp;</a>
+                        section.
                     </p>
                     <div className="flex flex-row gap-5 items-center justify-center lg:justify-start">
                         <Button
                             size="md"
-                            className="bg-base-c smooth text-hover-fg px-10"
+                            className="bg-base-c border-2 border-base-c smooth text-hover-fg px-10"
                         >
                             <span>Contact me</span>
                         </Button>
