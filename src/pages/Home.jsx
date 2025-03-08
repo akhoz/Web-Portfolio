@@ -8,7 +8,7 @@ import { SiGmail } from "react-icons/si";
 
 function Home() {
     return (
-        <div className="w-screen flex items-center justify-center mt-48 md:mt-60 lg:mt-72">
+        <div className="w-screen flex items-center justify-center mt-10 md:mt-60 lg:mt-72">
             <div className="flex flex-col items-center justify-center lg:flex-row lg:justify-between lg:w-10/12 xl:w-9/12">
                 <div className="w-9/12 md:w-2/3 lg:w-2/5">
                     <h1 className="text-4xl text-base-c text-center lg:text-start">
