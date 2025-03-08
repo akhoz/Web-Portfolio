@@ -7,6 +7,7 @@ import { BsLinkedin } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
 
 import { FaLightbulb } from "react-icons/fa";
+import {Link} from "react-router-dom";
 
 function Home() {
     return (
@@ -29,7 +30,7 @@ function Home() {
                         <a className="text-base-j cursor-pointer font-bold">&nbsp;projects</a>,
                         and more on this website.
                         Get to know me in the
-                        <a href="/about" className="text-base-j cursor-pointer font-bold">&nbsp;about&nbsp;</a>
+                        <Link to="/About/" className="text-base-j cursor-pointer font-bold">&nbsp;about&nbsp;</Link>
                         section.
                     </p>
                     <div className="flex flex-row gap-5 items-center justify-center lg:justify-start">

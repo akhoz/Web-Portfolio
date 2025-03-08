@@ -6,6 +6,7 @@ import {
     IconButton,
 } from "@material-tailwind/react";
 import {useEffect, useState} from "react";
+import {Link} from "react-router-dom";
 
 export function Header() {
     const [openNav, setOpenNav] = useState(false);
@@ -33,9 +34,9 @@ export function Header() {
                 variant="large"
                 className="p-1 font-normal"
             >
-                <a href="/about" className="flex items-center">
+                <Link to="/About/" className="flex items-center">
                     About
-                </a>
+                </Link>
             </Typography>
             <Typography
                 as="li"

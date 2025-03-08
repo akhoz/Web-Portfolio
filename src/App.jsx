@@ -15,7 +15,7 @@ function App() {
             <div className="absolute top-0">
                 <Routes>
                     <Route path={`${root}`} element={<Home />} />
-                    <Route path={`${root}/about`} element={<About />} />
+                    <Route path={`${root}/About`} element={<About />} />
                 </Routes>
             </div>
     </Router>
