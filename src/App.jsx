@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 import './App.css'
 import Header from "./components/Header.jsx";
@@ -7,19 +7,17 @@ import Home from "./pages/Home.jsx"
 import About from "./pages/About.jsx"
 
 function App() {
-  const root = "/";
-
-  return (
-    <Router>
-        <Header />
+    return (
+        <Router>
+            <Header />
             <div className="absolute top-0">
                 <Routes>
-                    <Route path={`${root}`} element={<Home />} />
-                    <Route path={`${root}/About`} element={<About />} />
+                    <Route path="/" element={<Home />} />
+                    <Route path="/about" element={<About />} />
                 </Routes>
             </div>
-    </Router>
-  );
+        </Router>
+    );
 }
 
 export default App;

@@ -34,7 +34,7 @@ export function Header() {
                 variant="large"
                 className="p-1 font-normal"
             >
-                <Link to="/About/" className="flex items-center">
+                <Link to="/about" className="flex items-center">
                     About
                 </Link>
             </Typography>

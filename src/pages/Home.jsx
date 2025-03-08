@@ -30,7 +30,7 @@ function Home() {
                         <a className="text-base-j cursor-pointer font-bold">&nbsp;projects</a>,
                         and more on this website.
                         Get to know me in the
-                        <Link to="/About/" className="text-base-j cursor-pointer font-bold">&nbsp;about&nbsp;</Link>
+                        <Link to="/about" className="text-base-j cursor-pointer font-bold">&nbsp;about&nbsp;</Link>
                         section.
                     </p>
                     <div className="flex flex-row gap-5 items-center justify-center lg:justify-start">
