@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 body {
-    background: hsl(230, 17%, 14%);
-    transition: background 0.3s ease;
+    background: #1a1b26;
+    color: white;
     font-family: 'Roboto', sans-serif;
 }
 
-body.light-mode {
-    background: hsl(0, 0%, 100%);
+.smooth {
+    transition: scale 0.5s ease-in-out;
+}
+
+.smooth:hover {
+    scale: 1.1;
 }

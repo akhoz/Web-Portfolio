@@ -4,25 +4,17 @@ import './App.css'
 import Header from "./components/Header.jsx";
 
 import Home from "./pages/Home.jsx"
-import Experience from './pages/Experience.jsx';
-import Projects from "./pages/Projects.jsx"
 
 function App() {
   const root = "/";
 
   return (
-    <div className="flex flex-col min-h-screen scrollbar-hide">
-      <Router>
-        <div>
-          <Header className='opacity-90' />
-          <Routes>
-            <Route path={`${root}`} element={<Home />} />
-            <Route path={`${root}/Experience`} element={<Experience />} />
-            <Route path={`${root}/Projects`} element={<Projects />} />
-          </Routes>
-        </div>
-      </Router>
-    </div>
+    <Router>
+        <Header />
+        <Routes>
+          <Route path={`${root}`} element={<Home />} />
+        </Routes>
+    </Router>
   );
 }
 
