@@ -43,9 +43,9 @@ export function Header() {
                 variant="large"
                 className="p-1 font-normal"
             >
-                <a href="#" className="flex items-center">
+                <Link to="/skills" className="flex items-center">
                     Skills
-                </a>
+                </Link>
             </Typography>
             <Typography
                 as="li"

@@ -21,7 +21,7 @@ AboutMeItem.propTypes = {
     fgColor: PropTypes.string.isRequired,
     bgColor: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
-    children: PropTypes.node.isRequired,
+    children: PropTypes.node
 };
 
 export default AboutMeItem;
