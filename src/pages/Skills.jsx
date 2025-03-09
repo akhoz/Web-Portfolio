@@ -11,6 +11,12 @@ import { FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
+import { FaUbuntu } from "react-icons/fa";
+import { FaFedora } from "react-icons/fa";
+import { GrArchlinux } from "react-icons/gr";
+import { SiEndeavouros } from "react-icons/si";
+import { SiKalilinux } from "react-icons/si";
+import { SiLinuxmint } from "react-icons/si";
 
 function Skills() {
     return (
@@ -56,6 +62,27 @@ function Skills() {
                 <SiJavascript className="text-base-c"/>
                 <FaPython className="text-base-c"/>
                 <GrMysql className="text-base-c"/>
+            </SkillItem>
+            <SkillItem
+                fgColor="text-base-f"
+                title="Knowledge of Linux"
+                text={
+                    <p>
+                        I have been a Linux user since my first year at ITCR. I have used well-known
+                        distributions such as Ubuntu and Fedora. Additionally, I have configured other
+                        distributions like EndeavourOS and, currently, Arch Linux. I have learned a
+                        great deal about managing the Linux operating system, maintaining my own
+                        dotfiles, and using these systems has provided me with skills in terminal
+                        management, package managers, and Linux operating system infrastructure.
+                        Finally, I have also installed Kali Linux and Mint on virtual machines.
+                    </p>
+                }>
+                <FaUbuntu className="text-base-f"/>
+                <FaFedora className="text-base-f"/>
+                <GrArchlinux className="text-base-f"/>
+                <SiEndeavouros className="text-base-f"/>
+                <SiLinuxmint className="text-base-f"/>
+                <SiKalilinux className="text-base-f"/>
             </SkillItem>
             <SkillItem
                 fgColor="text-base-j"
